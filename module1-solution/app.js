@@ -5,7 +5,7 @@
   .controller('LunchCheckController', ctrl);
 	ctrl.$inject = ['$scope'];
 	function ctrl ($scope){
-    $scope.countItems = function(){
+    $scope.checkLunch = function(){
       var count = 0;
       if($scope.items != undefined){
 
