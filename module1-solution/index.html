@@ -26,7 +26,7 @@
              <button class="btn btn-default" ng-click="countItems();">Check If Too Much</button>
          </div>
          <div ng-show="message"
-            class="form-group alert {{isValid() ? 'alert-success' : 'alert-danger'}}">
+            class="form-group alert" ng-class="messageClass">
            <span>{{message}}<span>
          </div>
    </div>
