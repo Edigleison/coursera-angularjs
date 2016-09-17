@@ -30,9 +30,5 @@
       }
 
     };
-
-    $scope.isValid = function(){
-      return $scope.message === "Enjoy!" || $scope.message === "Too much!";
-    }
   };
 })();
